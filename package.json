@@ -1,0 +1,35 @@
+{
+    "name": "delay-9p",
+    "version": "0.1.2",
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/luddo9p/RafTimeout.git"
+    },
+    "scripts": {
+        "start": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Luddo",
+    "devDependencies": {
+        "eslint-config-standard": "^11.0.0",
+        "eslint-plugin-import": "^2.9.0",
+        "eslint-plugin-node": "^5.2.1",
+        "eslint-plugin-promise": "^3.6.0",
+        "eslint-plugin-standard": "^3.0.1",
+        "@babel/preset-env": "^7.0.0-beta.40",
+        "babel-preset-stage-2": "^6.24.1",
+        "eslint-loader": "^1.9.0",
+        "standard": "^11.0.0",
+        "uglifyjs-webpack-plugin": "^1.2.0",
+        "webpack": "^3.11.0"
+    },
+    "dependencies": {
+        "@babel/core": "^7.0.0-beta.40",
+        "babel-loader": "^8.0.0-beta.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "localforage": "^1.5.6",
+        "lodash": "^4.17.5"
+    }
+}
