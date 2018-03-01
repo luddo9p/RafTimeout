@@ -1,9 +1,15 @@
-# Delay based on Promises and Performance
+# Delay 
 
+> Promises & Performance
+
+``` bash
+# install
 npm install delay-9p --save
 
+# import 
 import delay from "delay-9p"
 
+# example
 delay(200)
 	.then(_ => {
 		console.log("it worked")
@@ -11,3 +17,4 @@ delay(200)
 	.catch(error => {
 		throw new Error(error)
 	})
+```
