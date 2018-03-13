@@ -9,7 +9,7 @@ npm install delay-9p --save
 # import 
 import delay from "delay-9p"
 
-```javascript
+``` javascript
 delay(200)
 	.then(_ => {
 		console.log("it worked")
